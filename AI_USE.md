@@ -85,7 +85,7 @@ have changed what the report says. The last four are process failures.
    * It labelled poles by counting seed words, which put a single label on mixed
      housing-and-healthcare poles.
    * Linear topic weights let the tone of one issue leak into another's: in a test, housing
-     sentiment read −0.32 where it should have been −0.95.
+     sentiment read −0.32 when every housing document was negative.
    * A hand-written stopword list let words like "as", "he" and "we" dominate several topics.
 
 5. **Daily sentiment for thin topics was noise.** On days when a topic received a sliver of one
