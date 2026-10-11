@@ -1,0 +1,6 @@
+# Downloaded data is reproducible from the scripts (tweets cannot be redistributed)
+data/**
+!data/
+outputs/*.pkl
+__pycache__/
+.pytest_cache/
